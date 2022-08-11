@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVANTURE</h1>
+        <ul class="nav-link">
+            <li class="active"> <a href="#"></a>HOME</li>
+            <li> <a href="#"></a>TOURS</li>
+            <li> <a href="#"></a>Explore</li>
+            <li> <a href="#"></a>ABOUT</li>
+            <li class="ctn"> <a  href="#"></a>CONTACT</li>
+        </ul>
+        <img src="btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+        <h2>Explore the colorful world</h2>
+        <div class="line"></div>
+        <h1>WONDERFUL</h1>
+        <a href="#" class="ctn"> LEARN MORE</a>
+        </div>
+    </header>
+    
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="image5.jpg" alt="">
+                <h4>Tverest camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex optio vel, nihil expedita tenetur aliquam perspiciatis aliquid et similique illo ad, facilis sapiente! Deleniti ducimus voluptate debitis est quasi atque!</p>
+                <a href="#" class="ctn">Learn More</a>
+                <div class="col">
+                    <img src="image4.jpg" alt="">
+                    <h4>Walking Holidays</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex optio vel, nihil expedita tenetur aliquam perspiciatis aliquid et similique illo ad, facilis sapiente! Deleniti ducimus voluptate debitis est quasi atque!</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <section class="explore">
+<div class="explore-content">
+    <h1>EXPLOR THE WORLD</h1>
+    <a href="" class="line"></a>
+    <p>Lorem, ipsum dolor sit amet consectetur fugit facilis pariatur. Incidunt sit voluptatibus facilis nam accusantium rerum nulla laborum, minus fuga, laudantium quasi excepturi quidem.</p>
+    <a href="#" class="ctn">Learan More</a>
+</div>
+ </section>
+
+
+ <section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>UPCOMING TOURS AND DISTINATION</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae et atque nesciunt saepe non explicabo nulla fugiat soluta ea consequatur autem quam voluptate quae, eius officia dolor nemo modi iste.</P>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="image2.jpg" alt="">
+                <img src="image3.jpg" alt="">
+                <img src="image7.jpg" alt="">
+                <img src="image8.jpg" alt="">
+                <img src="images9.jpg" alt="">
+                <img src="image10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+
+<section class="footer">
+    <p>try for my best| phon: 01234567899  | Email abc@gmail.com</p>
+    <p>the first website in html and css</p>
+
+</section>
+
+    <script>
+        const menuBtn= document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-link')
+
+       menuBtn.addEventListener('click' ,()=>{
+        navlinks.classList.toggle('mobil-menu')
+       })
+        
+    </script>
+</body>
+</html>
